@@ -1,0 +1,53 @@
+* {
+/* Reset Básico de Todos os Elementos */    
+/* ou aplicando configuração padrão */
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+body{
+    background-color:#262626; 
+
+}
+
+main{
+    background-image: url("../img/tijo.jpg");
+    background-repeat:repeat;
+    background-attachment: fixed;
+    /*background-size: 130px 90px;*/
+    background-size: 310px 90px;
+    background-position: center center;
+    height: 100vh;
+}
+
+h1{
+    /*color:white;*/
+    /* color: #ff0000;*/
+    /*color: rgb(0,255,0);*/
+    /*color: rgba(0,255,0,0.1); A = transparencia */
+    color: #592796;
+    opacity:0.5;
+    font-size: 20px;
+    font-weight:800;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+}
+
+section{
+    width: 50%;
+    color: blue;
+}
+#segunda-section{
+    color:green;
+}
